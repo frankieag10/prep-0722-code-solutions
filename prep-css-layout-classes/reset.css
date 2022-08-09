@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 50px;
+  text-shadow: 6px 6px 6px;
+  color: black;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+h3 {
+  font: bold;
+  font-size: 22px;
+  color: red;
+  width: 100px;
+  height: 100px;
+  background: white;
+  position: relative;
+  animation: mymove 6s infinite;
+  border: 3px;
+}
+
+.column img {
+  box-shadow: 8px 8px 8px;
+  color: black;
+}
+
+@keyframes mymove {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 200px;
+  }
+}
